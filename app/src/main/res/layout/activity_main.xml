@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="@dimen/main_tv_bottom"
+            app:srcCompat="@drawable/coffee" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/main_tv_description_paddingStart"
+            android:layout_marginBottom="5dp"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Description: " />
+
+        <TextView
+            android:id="@+id/main_tv_descriptionDetails"
+            style="@style/main_tv"
+            android:paddingStart="@dimen/main_tv_description_paddingStart"
+            android:text="@string/main_description" />
+
+
+        <TextView
+            android:id="@+id/main_tv_address"
+            style="@style/main_tv"
+            android:drawableLeft="@drawable/ic_location"
+            android:text="@string/main_address" />
+
+        <TextView
+            android:id="@+id/main_tv_email"
+            style="@style/main_tv"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_email"
+            android:text="@string/main_emial" />
+
+        <TextView
+            android:id="@+id/main_tv_phone"
+            style="@style/main_tv"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_phone"
+            android:text="@string/main_phone" />
+
+        <TextView
+            android:id="@+id/main_tv_time"
+            style="@style/main_tv"
+            android:drawableLeft="@drawable/ic_time"
+            android:text="@string/main_hours" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+<!--<TextView-->
+<!--android:id="@+id/main_tv_description"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginTop="10dp"-->
+<!--android:textStyle="bold"-->
+<!--android:textSize="25sp"-->
+<!--android:textColor="@color/main_textColor"-->
+<!--android:paddingStart="@dimen/main_tv_padding"-->
+<!--android:text="Description :" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/main_tv_details"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginBottom="@dimen/main_tv_bottom"-->
+<!--android:paddingStart="@dimen/main_tv_padding"-->
+<!--android:textSize="15sp"-->
+<!--android:textColor="@color/main_textColor"-->
+<!--android:text="D.cappaccino is the best place for people who wants to read or work quietly." />-->
+
+<!--<TextView-->
+<!--android:id="@+id/main_tv_address"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:textStyle="bold"-->
+<!--android:textSize="20sp"-->
+<!--android:textColor="@color/main_textColor"-->
+<!--android:paddingStart="@dimen/main_tv_padding"-->
+<!--android:text="Address :" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/main_tv_addressDetails"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:textColor="@color/main_textColor"-->
+<!--android:layout_marginBottom="@dimen/main_tv_bottom"-->
+<!--android:paddingStart="@dimen/main_tv_padding"-->
+<!--android:text="Abbas El Akkad, Nasr City " />-->
+<!--<TextView-->
+<!--android:id="@+id/main_tv_contact"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:textColor="@color/main_textColor"-->
+<!--android:textSize="20sp"-->
+<!--android:textStyle="bold"-->
+<!--android:paddingStart="@dimen/main_tv_padding"-->
+<!--android:text="Contact Information :" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/main_tv_contactPhone"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:textColor="@color/main_textColor"-->
+<!--android:textSize="15sp"-->
+<!--android:paddingStart="@dimen/main_tv_padding"-->
+<!--android:text="Phone : +201110002911 " />-->
+<!--<TextView-->
+<!--android:id="@+id/main_tv_contactWebsite"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:textColor="@color/main_textColor"-->
+<!--android:textSize="15sp"-->
+<!--android:paddingStart="@dimen/main_tv_padding"-->
+<!--android:text="Email : D.Cappuccino.cafe@gmail.com " />-->

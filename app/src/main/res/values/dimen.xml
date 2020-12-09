@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_tv_description_paddingStart">15dp</dimen>
+    <dimen name="main_tv_bottom">20dp</dimen>
+    <dimen name="main_tv_padding">5dp</dimen>
+    <dimen name="main_drawPadding">15dp</dimen>
+    <dimen name="main_paddingStart">10sp</dimen>
+    <dimen name="main_textSize">20sp</dimen>
+
+</resources>

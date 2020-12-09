@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">D.Cappuccino Cafe</string>
+
+    <string name="main_address">Abbas El Akkad, Nasr City, Cairo, Egypt </string>
+    <string name="main_phone">+201110002911</string>
+    <string name="main_emial">D.Cappuccino.cafe@gmail.com</string>
+    <string name="main_hours">09:00 A.M. - 12:00 A.M.</string>
+    <string name="main_description">D.cappaccino is the first islamic cafe in Egypt. It seperates between men and women. It is also
+        the best place for people who wants to read or work quietly.</string>
+
+</resources>
